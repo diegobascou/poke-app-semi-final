@@ -1,0 +1,53 @@
+.logo {
+  width: 150px;
+}
+
+.icono {
+  width: 22px;
+  margin-right: 5px;
+}
+
+.headerLogo {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .icono {
+    width: 30px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icono {
+    width: 40px;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  .headerLogo {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .icono {
+    width: 60px;
+  }
+
+  .logo {
+    width: 350px;
+  }
+
+  .headerLogo {
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+}
